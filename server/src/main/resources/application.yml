@@ -1,0 +1,11 @@
+logging.level.com.reliaquest: DEBUG
+spring.application.name: mock-employee-api
+server:
+  port: 8112
+  compression:
+    enabled: true
+mock.employees.max: 50
+spring:
+  web:
+    resources:
+      add-mappings: false
